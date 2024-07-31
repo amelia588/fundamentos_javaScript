@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precios de Frutas</title>
+    <link rel="stylesheet" href="styles01.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Consulta el precio de las frutas</h1>
+        <select id="fruta" onchange="mostrarPrecio()">
+            <option value="">Selecciona una fruta</option>
+            <option value="naranjas">Naranjas</option>
+            <option value="manzanas">Manzanas</option>
+            <option value="bananas">Bananas</option>
+            <option value="mangos">Mangos</option>
+            <option value="papayas">Papayas</option>
+        </select>
+        <p id="resultado"></p>
+    </div>
+    <script src="script01.js"></script>
+</body>
+</html>
